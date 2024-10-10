@@ -39,12 +39,12 @@ export const MainSection = () => {
                             className={`absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-0 object-cover trasition-all duration-800 z-40
                             ${ visibleSection === 'section-1' ? 'opacity-0' : 'opacity-100' } ${ visibleSection === 'section-4' ? 'w-full h-3/4' : (visibleSection === 'section-3' ? 'w-72 h-[356px]' : 'w-64 h-[307px]') }
                             ${ visibleSection === 'section-2' ? 'rounded-2xl' : (visibleSection === 'section-3' ? 'rounded-none bottom-[calc(50%-230px)]' : (visibleSection === 'section-4' ? 'w-full rounded-bl-[89px] rounded-tl-[30px] left-0 bottom-[25%]' : ''))}`}
-                            src="stikkman/assets/image2.jpeg"
+                            src="assets/image2.jpeg"
                             alt="image-2"
                             />
                             { /* below content belongs to section-4 */}
                             <img
-                            src='stikkman/assets/bgpaper.png'
+                            src='assets/bgpaper.png'
                             className={`absolute bottom-0 ${ visibleSection === 'section-4' ? 'opacity-100' : 'opacity-0' } transition-all duration-800`}
                             alt="background-image"
                             />
@@ -71,7 +71,7 @@ export const MainSection = () => {
                             </div>
                             <img
                             className={`absolute left-1/2 -translate-x-1/2 object-cover ${ visibleSection === 'about-2' ? 'bottom-[25%] w-full h-3/4 rounded-bl-[32px]' : '-bottom-3 w-64 h-[310px] rounded-2xl' } transition-all duration-800 z-30`}
-                            src="stikkman/assets/image3.jpeg"
+                            src="assets/image3.jpeg"
                             alt="image-3"
                             />
                             <FloatTab/>

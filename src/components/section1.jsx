@@ -22,7 +22,7 @@ export const Section1 = () => {
     return (
         <section className="section-1 observe relative w-full h-full snap-end snap-always">
             <video className="w-full h-full object-cover" autoPlay muted loop>
-                <source src="stikkman/assets/video/bgvideo.mp4" type="video/mp4"/>
+                <source src="assets/video/bgvideo.mp4" type="video/mp4"/>
             </video>
             <div className="absolute z-10 top-0 left-0 w-full h-full bg-video-gradient"></div>
             <div
@@ -35,7 +35,7 @@ export const Section1 = () => {
                     <span className="font-athelas ps-14"><span className="italic">in</span> LOREM IPSUM</span>
                 </span>
                 <div className="absolute left-1/2 -translate-x-1/2 bottom-44 flex flex-col items-center gap-3 text-[#F3F3F3]">
-                    <img src="stikkman/assets/profile.png" alt="profile-image"/>
+                    <img src="assets/profile.png" alt="profile-image"/>
                     <span className="flex flex-col items-center text-xs">
                         <span className="font-jakarta">lorem by</span>
                         <span className="font-jakarta font-bold">Lorem & Ipsum lorem</span>
